@@ -1,0 +1,56 @@
+body {
+  background: #0a0908;
+  font-family: "Poppins", sans-serif;
+  color: #b4a69e;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.label {
+  display: flex;
+  align-items: center;
+}
+
+#score {
+  color: green;
+  padding-left: 0.5rem;
+}
+
+#time-left {
+  color: red;
+  padding-left: 0.5rem;
+}
+.grid {
+  width: 306px;
+  height: 306px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  border: solid #fff 1px;
+  cursor: pointer;
+}
+
+.mole {
+  background: url(mole.png);
+  background-size: 100px;
+}
+
+.hit-mole {
+  background: url(hit-a-mole.png);
+  background-size: 100px;
+}
+.reset-btn {
+  margin-left: 6rem;
+  width: 5rem;
+  height: 2rem;
+  background: #ffc107;
+  color: #0a0908;
+  border: none;
+  border-radius: 0.25rem;
+  /* box-shadow: 2px 2px 3px #b3b3a8; */
+  cursor: pointer;
+}
